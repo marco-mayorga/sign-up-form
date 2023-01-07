@@ -6,17 +6,38 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="styles.css" />
         <script src="script.js"></script>
-        <title>Form</title>
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap"
+            rel="stylesheet" />
+        <!-- Fonts -->
+        <title>Odin Project Form</title>
     </head>
     <body>
-        <div>
-            <div>
-            <!-- <img src="img/halie-west-25xggax4bSA-unsplash.jpg" alt="" /> -->
+        <div id="leftSide">
+            <div id="backgroundImg">
+                <div id="logo">Logo</div>
+                <div id="photoInfo">
+                    Photo by
+                    <a href="https://unsplash.com/@venrick">
+                        Venrick Azcueta
+                    </a>
+                    on <a href="https://unsplash.com/"> Unsplash </a>
+                </div>
             </div>
         </div>
-        <div>
-            <div></div>
-            <form action="" method="get">
+        <div id="rightSide">
+            <div id="topRight">
+                <div>
+                    This is not a real online service! You know you need
+                    something like this in your life to realize your deepest
+                    dreams. Sign up <em>now</em> to get started.
+                </div>
+                <div>You <em>know</em> you want to.</div>
+            </div>
+            <form action="" method="get" id="midRight">
                 <label for="name">Name</label>
                 <input
                     id="name"
@@ -56,8 +77,11 @@
                     name="confirm_password"
                     required />
             </form>
-            <div>
+            <div id="bottomRight">
                 <input type="submit" />
+                <div id="exsitingAccount">
+                    Already have an account? <a href="">Sign In</a>
+                </div>
             </div>
         </div>
     </body>
